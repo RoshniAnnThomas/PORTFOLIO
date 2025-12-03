@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experiences</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,7 +29,7 @@
             </div>
             <div class="menu-links">
               <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experiences" onclick="toggleMenu()">Experiences</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -42,14 +42,14 @@
         <div class="section__text">
             <p class="section__text__p1">Hello,I'm</p>
             <h1 class="title">Roshni Thomas</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p2">Aspiring Software Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download Resume</button>
-                <button class="btn btn-color-2" onclick="location.href='(./#contact)'">Contact Info</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-2" onclick="location.href='#contact'">Contact Info</button>
             </div>
-            <div id="socials-container"></button>
-            <img src="./assets/linkedIn.png" alt="My LinkedIN profile" class="icon" onclick="location.href='https://linkedin.com/'"/>
-            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"/>
+            <div id="socials-container"></div>
+            <img src="./assets/linkedIn.png" alt="LinkedIN icon" class="icon" onclick="location.href='https://www.linkedin.com/in/roshni-thomas-85082b260'"/>
+            <img src="./assets/github.png" alt="Github icon" class="icon" onclick="location.href='https://github.com/RoshniAnnThomas'"/>
         </div>
     </section>
     <section id="about">
@@ -57,14 +57,14 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="profile picture" class="about-pic"/>
+                <!-- <img src="./assets/about-pic.png" alt="profile picture" class="about-pic"/> -->
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
                     <h3>Experience</h3>
-                    <p> 0  years<br> Frontend Development</p>
+                    <p> Entry-Level <br>Software Developer</p>
                     </div>  
                     <div class="details-container">
                       <img src="./assets/education.png" alt="Education icon" class="icon">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi consequatur iste eius, vero accusamus, amet, eligendi laborum unde libero nulla odio ad maxime sunt. Error modi cumque obcaecati maiores. Facilis.</p>
+                    <p>I’m a B.Tech IT student focused on building a strong foundation in software development. I’m currently improving my Java, Python, and problem-solving skills by building small, practical console-based projects and strengthening my fundamentals.</p>
                 </div>
             </div>
         </div>
@@ -85,47 +85,47 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Software Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>HTML</h1>
+                                <h3>HTML</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>CSS</h1>
+                                <h3>CSS</h3
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>JavaScript</h1>
+                                <h3>JavaScript</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>Python</h1>
+                                <h3>Python</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>Java</h1>
+                                <h3>Java</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h1>Ms Excel</h1>
+                                <h3>Ms Excel</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
@@ -142,45 +142,59 @@
             <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="./assets/project-1.png" alt="Project 1"  class="project-img"/>
+                    <img src="https://t4.ftcdn.net/jpg/16/84/54/25/360_F_1684542581_WjQh8oqMWtbjQOEbEqYKXCXlv8p8fnHM.jpg" alt="Expense Analyzer"  class="project-img"/>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">Expense Analyzer</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/expense-analyzer'">
                         GitHub
                     </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/expense-analyzer'">
                         Live Demo</button>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="./assets/project-2.png" alt="Project 2"  class="project-img"/>
+                    <img src="https://schoolmanagement.school.blog/wp-content/uploads/2019/12/student-management.png?w=1412" alt="Student Data Manager"  class="project-img"/>
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Student Data Manager</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/student-manager'">
                         GitHub
                     </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/student-manager'">
                         Live Demo</button>
                 </div>
             </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQGoMF8aZ5_YRQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1684740326463?e=2147483647&v=beta&t=rLxVmJLdkD51P2gJNDPOE5NemRJAqgP1LWWxoFm5ZQs" alt="Mini Banking System"  class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Mini Banking System</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/Mini-banking-system'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/RoshniAnnThomas/Mini-banking-system'">
+                        Live Demo</button>
+                </div>
+            </div>
+            
         </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'"/>
     </section>
     <section id="contact">
         <p class="section__text__p1"> Get in Touch</p>
         <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-contauner">
+        <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="email icon" class="icon contact-icon"/>
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                <p><a href="roshnijuly16@gmail.com">roshnijuly16@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
-                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+                <p><a href="https://www.linkedin.com/in/roshni-thomas-85082b260">LinkedIn</a></p>
             </div>
         </div>
     </section>
@@ -197,7 +211,7 @@
         </nav>
         <p>Copyright &#169; 2025 Roshni Thomas. All Rights Reserved.</p>
     </footer>
-    <script src=" script.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>
